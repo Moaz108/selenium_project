@@ -14,3 +14,24 @@ A Selenium-based web scraper to extract and process the 2023-2024 Egyptian Premi
 2. Install dependencies:
    ```bash
    pip install selenium webdriver_manager pandas
+
+## Usage
+1.Run the Jupyter notebook selenium_project.ipynb.
+
+2.The script will:
+
+   Automatically download ChromeDriver.
+   
+   Scrape data from the target URL.
+   
+   Save results to egyptian-premier-league.csv.
+
+   Generate a cleaned DataFrame with a year column.
+
+## Data Source
+Scraped from: 2023-2024 Egyptian Premier League Standings
+
+## Notes
+The CSV is saved to D:\projects\ by default (modify the path in the notebook if needed).
+
+The scraper assumes the website structure remains consistent. Updates to the site may break the script.
